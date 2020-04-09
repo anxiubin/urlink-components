@@ -9,9 +9,9 @@ function App() {
   return (
     <>
     <Route exact path="/" component={Home}/>
-    <Route path="/urlink-components" component={Home}/>
-    <Route path="/urlink-components/Signup" component={Signup} />
-    <Route path="/urlink-components/Login" component={Login} />
+    <Route exact path="/urlink-components" component={Home}/>
+    <Route exact path="/urlink-components/Signup" component={Signup} />
+    <Route exact path="/urlink-components/Login" component={Login} />
     </>
   );
 }
