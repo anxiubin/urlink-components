@@ -10,8 +10,8 @@ function App() {
     <>
     <Route exact path="/" component={Home}/>
     <Route path="/urlink-components" component={Home}/>
-    <Route path="/Signup" component={Signup} />
-    <Route path="/Login" component={Login} />
+    <Route path="/urlink-components/Signup" component={Signup} />
+    <Route path="/urlink-components/Login" component={Login} />
     </>
   );
 }
