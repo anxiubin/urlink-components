@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
-import URLinkLogo from './Img/logo-urlink-full.png'
+import URLinkLogo from './images/logo-urlink-full.png'
 
 function Home() {
   return (

@@ -1,11 +1,9 @@
 import React from 'react';
 import './LoginSignup.scss';
-import GoogleLogin from '../Button/GoogleLogin';
-import URLinkLogo from '../Img/logo-urlink-full.png'
-import EmailNickname from '../Input/EmailNickname';
-import Password from '../Input/Password';
-import SigninupBox from '../Button/SigninupBox';
-import SigninupText from '../Button/SigninupText';
+import URLinkLogo from '../images/logo-urlink-full.png'
+import { GoogleLoginBtn, SigninupBoxBtn, SigninupText } from '../components/button';
+import { IdInput, PasswordInput  } from '../components/input';
+
 
 function Login() {
   return (
@@ -15,18 +13,20 @@ function Login() {
             <div className="title-login">로그인</div>
 
             <form method="POST">
-                <GoogleLogin text="구글 이메일로 로그인" />
-                <div class="line"><span>OR</span></div>
-                <div className="subtitle">이메일</div>
-                <EmailNickname placeholder="user@exmaple.com" />
-                <div className="subtitle">비밀번호</div>
-                <Password placeholder="password" />
-                <div className="btn-group">
-                    <SigninupBox text="로그인" />
-                    <SigninupText  text="회원가입"/>
-                </div>
-            </form>
 
+              <GoogleLoginBtn text="구글 이메일로 로그인" />
+              <div className="line"><span>OR</span></div>
+              <div className="subtitle">이메일</div>
+              <IdInput placeholder="user@exmaple.com" />
+              <div className="subtitle">비밀번호</div>
+              <PasswordInput placeholder="password" />
+
+              <div className="btn-group">
+                <SigninupBoxBtn text="로그인"/>
+                <SigninupText text="회원가입" />
+              </div>
+
+            </form>
         </section>
 
         <section className="image-box-login image-layout">
