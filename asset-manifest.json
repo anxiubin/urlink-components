@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/urlink-components/static/css/main.180776bf.chunk.css",
+    "main.js": "/urlink-components/static/js/main.e8357eb1.chunk.js",
+    "main.js.map": "/urlink-components/static/js/main.e8357eb1.chunk.js.map",
+    "runtime-main.js": "/urlink-components/static/js/runtime-main.82f69be0.js",
+    "runtime-main.js.map": "/urlink-components/static/js/runtime-main.82f69be0.js.map",
+    "static/js/2.56a60999.chunk.js": "/urlink-components/static/js/2.56a60999.chunk.js",
+    "static/js/2.56a60999.chunk.js.map": "/urlink-components/static/js/2.56a60999.chunk.js.map",
+    "index.html": "/urlink-components/index.html",
+    "precache-manifest.c0182b8cf1e53b4c3ef845e587acf57c.js": "/urlink-components/precache-manifest.c0182b8cf1e53b4c3ef845e587acf57c.js",
+    "service-worker.js": "/urlink-components/service-worker.js",
+    "static/css/main.180776bf.chunk.css.map": "/urlink-components/static/css/main.180776bf.chunk.css.map",
+    "static/js/2.56a60999.chunk.js.LICENSE.txt": "/urlink-components/static/js/2.56a60999.chunk.js.LICENSE.txt",
+    "static/media/LoginSignup.scss": "/urlink-components/static/media/background2.222ee4dd.jpg",
+    "static/media/logo-google.png": "/urlink-components/static/media/logo-google.ff629c02.png",
+    "static/media/logo-urlink-full.png": "/urlink-components/static/media/logo-urlink-full.794ea0b6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82f69be0.js",
+    "static/js/2.56a60999.chunk.js",
+    "static/css/main.180776bf.chunk.css",
+    "static/js/main.e8357eb1.chunk.js"
+  ]
+}
