@@ -11,7 +11,14 @@ const theme = createMuiTheme({
     primary: {
       main: '#2083ff',
     }
-  }
+  },
+  typography: {
+    fontFamily: [
+      '"Spoqa Han Sans"', 
+      '"Spoqa Han Sans JP"',
+      'sans-serif',
+    ].join(','),
+  },
 })
 
 ReactDOM.render(

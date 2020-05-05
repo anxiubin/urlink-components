@@ -43,6 +43,3 @@ export function TermsModal({openBool, closeCallback, clickCallback}) {
         </Dialog>
   );
 }
-
-
-
